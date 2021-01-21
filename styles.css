@@ -1,0 +1,216 @@
+/* Menu */
+.bg-dark {
+  background-color: #7DD3D8 !important;
+}
+
+.navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover {
+  color: #333;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: #fff;
+}
+
+
+body {
+    background-color: mintcream;
+}
+
+
+
+/* Box-sizing reset: //w3bits.com/?p=3225 */
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+/* The Masonry Container */
+.masonry {
+  margin: 1.5em auto;
+  max-width: 768px;
+  column-gap: 1.5em;
+}
+
+/* The Masonry Brick */
+.item {
+  background: #fff;
+  padding: 1em;
+  margin: 0 0 1.5em;
+}
+
+/* Masonry on large screens */
+@media only screen and (min-width: 1024px) {
+  .masonry {
+    column-count: 3;
+  }
+    
+    h1, h2, h3, p{
+    margin-right: 290px;
+    margin-top: 20px;
+    margin-left: 100px;
+}
+    
+ /* Grid: */
+    .grid-container {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 10px;
+  background-color: #2196F3;
+  padding-left: 10px;
+    padding-right: 390px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+    display: inline-grid;   
+    padding-top: 20px;
+}
+.item1 {
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+img {
+  margin: auto;
+  display: block;
+}
+.grid-container {
+  margin:auto;
+/*  width: 90%;*/
+  padding-left: 115px;
+    
+}
+    
+    
+}
+
+/* Masonry on medium-sized screens */
+@media only screen and (max-width: 1123px) and (min-width: 768px) {
+  .masonry {
+    column-count: 2;
+  }
+    
+    h1, h2, h3, p{
+    margin-right: 290px;
+    margin-top: 20px;
+    margin-left: 100px;
+}
+    
+    /* Grid: */
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 5px;
+  background-color: #2196F3;
+    padding-right: 0px;
+    padding-top: 2px;
+    padding-bottom: 5px;
+    padding-left: 2px;
+}
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+    display: inline-grid;   
+    padding-top: 2px;
+    
+}
+.item1 {
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+img {
+  margin: auto;
+  display: block;
+}
+.grid-container {
+    margin:auto;
+/*  width: 90%;*/
+  padding-left: 75px;
+    
+}
+    
+}
+
+/* Masonry on small screens */
+@media only screen and (max-width: 767px) and (min-width: 40px) {
+  .masonry {
+    column-count: 1;
+  }
+
+   /* Grid: */
+    .grid-container {
+  display: grid;
+  grid-template-columns: auto;
+  grid-gap: 5px;
+  background-color: #2196F3;
+  padding-left: 0px;
+    padding-right: 1px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+    display: inline-grid;   
+    padding-top: 20px;
+}
+.item1 {
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+img {
+  margin: auto;
+  display: block;
+}
+.grid-container {
+  margin:auto;
+/*  width: 90%;*/
+  padding-left: 2px;
+    
+}
+    
+    p,h1 {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    
+}
+
+h4, .price-subtext {
+  margin-right: 290px;
+  margin-top: 20px;
+  margin-left: 100px;
+}
+
+
+
+.center {
+/*
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+*/
+    margin-left: 100px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Helvetica", "Arial", sans-serif;
+}
+
+.p-2 {
+    margin-right: 290px;
+  margin-top: 20px;
+  margin-left: 100px;
+}
+
+
+footer {
+    margin-left: 100px;
+}
+
+.contact-info {
+    white-space: nowrap;
+}
