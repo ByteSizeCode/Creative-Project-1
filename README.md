@@ -1,3 +1,3 @@
 # Creative Project 1
 
-<img src="ScreenShot.png" alt="drawing" width="350" height="370"/>
+<img src="Screenshot.png" alt="drawing" width="490" height="370"/>
